@@ -6,21 +6,54 @@ header {
     display: flex;
     background-color: #1F2937;
     color: #f9faf8;
-    padding: 12px;
+    font-weight: 700;
 }
 
 .header-links {
     display: flex;
-    align-items: center;
     font-size: 18px;
-    margin-left: auto;
-    gap: 10px;
 }
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #ccced3;
 }
 .header {
     font-size: 24px;
+}
+.top {
+    display: flex;
+    background-color: #1f2937;
+
+}
+
+.top .main {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    
+}
+
+.top .subtext {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.box1 {
+    max-width: 450px;
+}
+
+.image-placeholder{
+    display: flex;
+    background-color: gray;
+    width: 500px;
+    height: 250px;
+    margin-left: 300px;
+}
+
+.image-placeholder h4{
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    color: lightgray;
 }
