@@ -200,9 +200,25 @@ button:active {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
+    margin: 0;
+    padding: 25px;
 }
 
-footer h5 {
+footer h5,
+footer span {
     color: #e5e7eb;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer {
+    display: flex;
+}
+
+footer span {
+    padding: 0 5px;
 }
