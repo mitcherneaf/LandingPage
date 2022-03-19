@@ -71,13 +71,15 @@ ul a {
     padding: 0 100px;
 }
 
-button {
+.box1 button {
     border-radius: 8px;
     padding: 6px 25px;
     color: white;
     background-color: #3882f6;
     box-shadow: 0 5px #666;
     border-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 button:active {
@@ -149,4 +151,58 @@ button:active {
     align-self: flex-end;
     padding-right: 25%;
     margin-top: -50px;
+}
+
+.bottom {
+    background-color: white;
+    padding: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-box {
+    display: flex;
+    background-color: #3882f6;
+    width: 70%;
+    justify-content: space-around;
+    padding: 60px;
+    border-radius: 12px;
+}
+
+.boxleft h3,
+.boxleft h5 {
+    color: #f9faf8;
+    margin: 0;
+}
+
+.boxleft h3 {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.boxleft h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ccced3;
+}
+
+.boxright button {
+    color: white;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-width: 2px;
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: 500
+}
+
+footer {
+    background-color: #1F2937;
+}
+
+footer h5 {
+    color: #e5e7eb;
 }
